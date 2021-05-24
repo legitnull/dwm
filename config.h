@@ -39,8 +39,8 @@ static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-1%"
 static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute", "0", "toggle", NULL };
  
 /* backlight */
-static const char *brightnessup[]   = { "sudo", "xbacklight", "-inc", "2", NULL };
-static const char *brightnessdown[] = { "sudo", "xbacklight", "-dec", "2", NULL };
+static const char *brightnessup[]   = {  "xbacklight", "-inc", "2", NULL };
+static const char *brightnessdown[] = {  "xbacklight", "-dec", "2", NULL };
 
 #include "fibonacci.c"
 /* layout(s) */
@@ -104,11 +104,11 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ MODKEY,                       XK_equal,  shiftview,	   {.i = +1 } },
 	{ MODKEY,                       XK_minus,  shiftview,      {.i = -1 } },
-        { 0, XF86XK_AudioLowerVolume,   spawn,                     {.v = downvol} },
-        { 0, XF86XK_AudioMute,          spawn,                     {.v = mutevol }},
-        { 0, XF86XK_AudioRaiseVolume,   spawn,                     {.v = upvol} },
-        { 0, XF86XK_MonBrightnessUp,    spawn,                     {.v = brightnessup} },
-        { 0, XF86XK_MonBrightnessDown,  spawn,                     {.v = brightnessdown} },
+        {0, XF86XK_AudioLowerVolume,   spawn,                     {.v = downvol} },
+        {0, XF86XK_AudioMute,          spawn,                     {.v = mutevol} },
+        {0, XF86XK_AudioRaiseVolume,   spawn,                     {.v = upvol} },
+        {0, XF86XK_MonBrightnessUp,    spawn,                     {.v = brightnessup} },
+        {0, XF86XK_MonBrightnessDown,  spawn,                     {.v = brightnessdown} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
