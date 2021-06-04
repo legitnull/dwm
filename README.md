@@ -68,15 +68,15 @@ NOTE: Windows Key is Mod
 Mod+H = Increase cfact      
 Mod+L = Decrease cfact      
 Mod+\ = Previously selected      
-Mod+j = Next to selected      
-Mod+k = Previous to selected      
-Mod+q = First position      
-Mod+a = Second position      
-Mod+z = Third position      
-Mod+x = Last position      
+Mod+J = Next to selected      
+Mod+K = Previous to selected      
+Mod+Q = First position      
+Mod+A = Second position      
+Mod+Z = Third position      
+Mod+X = Last position      
 Mod+U = Bottom stack      
 Mod+O = Bottom stack horizontal   
-Mod+r = Spiral   
+Mod+R = Spiral   
 Mod+Shift+R = Dwindle   
 ```
 
@@ -92,3 +92,5 @@ https://dwm.suckless.org/patches/stacker/
 https://dwm.suckless.org/patches/bottomstack/
 
 https://dwm.suckless.org/patches/fibonacci/
+
+https://dwm.suckless.org/patches/cropwindows/
