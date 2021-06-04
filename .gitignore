@@ -1,0 +1,5 @@
+dwm
+dwm.o
+util.o
+drw.o
+dwm.c.orig
