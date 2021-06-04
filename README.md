@@ -73,6 +73,13 @@ Windows Key is Mod
 
 Mod-H increase cfact
 Mod-L decrease cfact
+Mod-\     PREVSEL    Previously selected
+Mod-j     INC(+1)    Next to selected
+Mod-k     INC(-1)    Previous to selected
+Mod-q       0        First position
+Mod-a       1        Second position
+Mod-z       2        Third position
+Mod-x      -1        Last position
 
 
 ## Added
