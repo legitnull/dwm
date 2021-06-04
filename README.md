@@ -71,6 +71,8 @@ and (re)compiling the source code.
 -------------
 Windows Key is Mod
 
+Mod-H increase cfact
+Mod-L decrease cfact
 
 
 ## Added
@@ -78,3 +80,6 @@ Windows Key is Mod
 https://dwm.suckless.org/patches/activetagindicatorbar/
 
 Volume and Brightness Keys
+
+https://dwm.suckless.org/patches/cfacts/
+

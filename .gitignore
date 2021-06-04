@@ -3,3 +3,4 @@ dwm.o
 util.o
 drw.o
 dwm.c.orig
+config.h.orig
