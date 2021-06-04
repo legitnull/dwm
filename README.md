@@ -18,7 +18,7 @@
 
 
 # dwm - dynamic window manager
-============================
+============================   
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
@@ -76,3 +76,5 @@ Windows Key is Mod
 ## Added
 -------------
 https://dwm.suckless.org/patches/activetagindicatorbar/
+
+Volume and Brightness Keys
