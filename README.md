@@ -78,6 +78,7 @@ Mod+U = Bottom stack
 Mod+O = Bottom stack horizontal   
 Mod+R = Spiral   
 Mod+Shift+R = Dwindle   
+Mod+S = Sticky   
 ```
 
 ## Added
@@ -94,3 +95,5 @@ https://dwm.suckless.org/patches/bottomstack/
 https://dwm.suckless.org/patches/fibonacci/
 
 https://dwm.suckless.org/patches/cropwindows/
+
+https://dwm.suckless.org/patches/sticky/
