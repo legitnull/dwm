@@ -63,18 +63,20 @@ and (re)compiling the source code.
 
 
 ## Keybinds
-Windows Key is Mod
-
-Mod-H increase cfact
-Mod-L decrease cfact
-Mod-\     PREVSEL    Previously selected
-Mod-j     INC(+1)    Next to selected
-Mod-k     INC(-1)    Previous to selected
-Mod-q       0        First position
-Mod-a       1        Second position
-Mod-z       2        Third position
-Mod-x      -1        Last position
-
+NOTE: Windows Key is Mod
+````
+Mod+H = Increase cfact   
+Mod+L = Decrease cfact   
+Mod+\ = Previously selected   
+Mod+j = Next to selected   
+Mod+k = Previous to selected   
+Mod+q = First position   
+Mod+a = Second position   
+Mod+z = Third position   
+Mod+x = Last position   
+Mod+U = Bottom stack   
+Mod+O = Bottom stack horizontal
+```
 
 ## Added
 https://dwm.suckless.org/patches/activetagindicatorbar/
@@ -84,3 +86,5 @@ Volume and Brightness Keys
 https://dwm.suckless.org/patches/cfacts/
 
 https://dwm.suckless.org/patches/stacker/
+
+https://dwm.suckless.org/patches/bottomstack/
