@@ -83,3 +83,4 @@ Volume and Brightness Keys
 
 https://dwm.suckless.org/patches/cfacts/
 
+https://dwm.suckless.org/patches/stacker/
