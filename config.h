@@ -107,6 +107,8 @@ ResourcePref resources[] = {
 		{ "mfact",      	 	FLOAT,   &mfact },
 };
 
+#include <X11/Xlib.h>
+#include <X11/keysym.h>
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -145,6 +147,14 @@ static Key keys[] = {
     {0, XF86XK_AudioRaiseVolume,    spawn,                     {.v = upvol} },
     {0, XF86XK_MonBrightnessUp,     spawn,                     {.v = brightnessup} },
     {0, XF86XK_MonBrightnessDown,   spawn,                     {.v = brightnessdown} },
+	{ MODKEY, 						XK_KP_Down,   movetoedge,       {.v = "0 1" } },
+	{ MODKEY, 						XK_KP_Next,   movetoedge,       {.v = "1 1" } },
+	{ MODKEY, 						XK_KP_Left,   movetoedge,       {.v = "-1 0" } },
+	{ MODKEY, 						XK_KP_Begin,  movetoedge,       {.v = "0 0" } },
+	{ MODKEY, 						XK_KP_Right,  movetoedge,       {.v = "1 0" } },
+	{ MODKEY, 						XK_KP_Home,   movetoedge,       {.v = "-1 -1" } },
+	{ MODKEY, 						XK_KP_Up,     movetoedge,       {.v = "0 -1" } },
+	{ MODKEY, 						XK_KP_Prior,  movetoedge,       {.v = "1 -1" } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

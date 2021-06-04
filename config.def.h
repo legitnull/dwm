@@ -11,12 +11,12 @@ static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Hack Regular Nerd Font Complete Mono:size=10" };
 static const char dmenufont[]       = "Hack Regular Nerd Font Complete Mono:size=10"; 
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#005577";
-static char selbgcolor[]            = "#005577";
+static char normbgcolor[]           = "#000000";
+static char normbordercolor[]       = "#FF0000";
+static char normfgcolor[]           = "#FF0000";
+static char selfgcolor[]            = "#000000";
+static char selbordercolor[]        = "#FF0000";
+static char selbgcolor[]            = "#FF0000";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -144,7 +144,15 @@ static Key keys[] = {
     {0, XF86XK_AudioMute,           spawn,                     {.v = mutevol} },
     {0, XF86XK_AudioRaiseVolume,    spawn,                     {.v = upvol} },
     {0, XF86XK_MonBrightnessUp,     spawn,                     {.v = brightnessup} },
-    {0, XF86XK_MonBrightnessDown,   spawn,                     {.v = brightnessdown} },
+    {0, XF86XK_MonBrightnessDown,   spawn,                     {.v = brightnessdown} },		{ MODKEY, 			XK_KP_End,    movetoedge,       {.v = "-1 1" } },
+	{ MODKEY, 			XK_KP_Down,   movetoedge,       {.v = "0 1" } },
+	{ MODKEY, 			XK_KP_Next,   movetoedge,       {.v = "1 1" } },
+	{ MODKEY, 			XK_KP_Left,   movetoedge,       {.v = "-1 0" } },
+	{ MODKEY, 			XK_KP_Begin,  movetoedge,       {.v = "0 0" } },
+	{ MODKEY, 			XK_KP_Right,  movetoedge,       {.v = "1 0" } },
+	{ MODKEY, 			XK_KP_Home,   movetoedge,       {.v = "-1 -1" } },
+	{ MODKEY, 			XK_KP_Up,     movetoedge,       {.v = "0 -1" } },
+	{ MODKEY, 			XK_KP_Prior,  movetoedge,       {.v = "1 -1" } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

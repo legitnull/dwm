@@ -99,3 +99,5 @@ https://dwm.suckless.org/patches/cropwindows/
 https://dwm.suckless.org/patches/sticky/
 
 https://dwm.suckless.org/patches/xresources/
+
+https://dwm.suckless.org/patches/movetoedge
