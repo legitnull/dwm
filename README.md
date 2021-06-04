@@ -64,19 +64,20 @@ and (re)compiling the source code.
 
 ## Keybinds
 NOTE: Windows Key is Mod
-````
-Mod+H = Increase cfact   
-Mod+L = Decrease cfact   
-Mod+\ = Previously selected   
-Mod+j = Next to selected   
-Mod+k = Previous to selected   
-Mod+q = First position   
-Mod+a = Second position   
-Mod+z = Third position   
-Mod+x = Last position   
-Mod+U = Bottom stack   
-Mod+O = Bottom stack horizontal
-MOD
+```
+Mod+H = Increase cfact      
+Mod+L = Decrease cfact      
+Mod+\ = Previously selected      
+Mod+j = Next to selected      
+Mod+k = Previous to selected      
+Mod+q = First position      
+Mod+a = Second position      
+Mod+z = Third position      
+Mod+x = Last position      
+Mod+U = Bottom stack      
+Mod+O = Bottom stack horizontal   
+Mod+r = Spiral   
+Mod+Shift+R = Dwindle   
 ```
 
 ## Added
