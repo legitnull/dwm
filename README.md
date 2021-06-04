@@ -76,6 +76,7 @@ Mod+z = Third position
 Mod+x = Last position   
 Mod+U = Bottom stack   
 Mod+O = Bottom stack horizontal
+MOD
 ```
 
 ## Added
@@ -88,3 +89,5 @@ https://dwm.suckless.org/patches/cfacts/
 https://dwm.suckless.org/patches/stacker/
 
 https://dwm.suckless.org/patches/bottomstack/
+
+https://dwm.suckless.org/patches/fibonacci/
