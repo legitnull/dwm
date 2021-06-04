@@ -97,3 +97,5 @@ https://dwm.suckless.org/patches/fibonacci/
 https://dwm.suckless.org/patches/cropwindows/
 
 https://dwm.suckless.org/patches/sticky/
+
+https://dwm.suckless.org/patches/xresources/
