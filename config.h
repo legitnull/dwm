@@ -9,8 +9,8 @@ static unsigned int borderpx  = 1;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Hack Regular Nerd Font Complete Mono:size=10" };
-static const char dmenufont[]       = "Hack Regular Nerd Font Complete Mono:size=10"; 
+static const char *fonts[]          = { "Hack Nerd Font Mono:size=10" };
+static const char dmenufont[]       = "Hack Nerd Font Mono:size=10"; 
 static char normbgcolor[]           = "#000000";
 static char normbordercolor[]       = "#FF0000";
 static char normfgcolor[]           = "#FF0000";

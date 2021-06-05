@@ -101,3 +101,5 @@ https://dwm.suckless.org/patches/sticky/
 https://dwm.suckless.org/patches/xresources/
 
 https://dwm.suckless.org/patches/movetoedge
+
+https://dwm.suckless.org/patches/statuscmd/
